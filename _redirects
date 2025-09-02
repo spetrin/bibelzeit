@@ -1,0 +1,6 @@
+# SPA redirect rules
+/*    /index.html   200
+
+# API proxy (замените на ваш бэкенд URL)
+/api/*  https://your-backend-url.com/api/:splat  200
+
