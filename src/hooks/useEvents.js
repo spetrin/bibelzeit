@@ -1,7 +1,8 @@
 import { useState, useCallback, useEffect } from 'react';
 
 // Конфигурация API с поддержкой переменных окружения
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || '/api';
+const API_BASE_URL = 'https://timeline-backend-o2ce.onrender.com/api';
+
 
 export const useEvents = () => {
   const [events, setEvents] = useState([]);
